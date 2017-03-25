@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'gothamBook';
+  src: "../fonts/gothamRoundedBook.otf" format("opentype"); }
+@font-face {
+  font-family: 'gothamMedium';
+  src: "..fonts/gothamRoundedMedium.otf" format("opentype"); }
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  width: 100%; }
+  body .container-1 {
+    background: url("../images/jumbotron.jpg") no-repeat;
+    background-position: center top;
+    height: 80rem;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; }
+    body .container-1 .firstBox {
+      margin: auto;
+      padding: 0;
+      font-family: gothamBook;
+      display: flex;
+      align-items: center;
+      flex-direction: column; }
+      body .container-1 .firstBox .row {
+        height: 25rem; }
+      body .container-1 .firstBox .title {
+        display: flex;
+        margin: auto;
+        font-size: 4rem; }
+        body .container-1 .firstBox .title span {
+          color: #a1a9b0; }
+      body .container-1 .firstBox p {
+        margin-top: 2rem;
+        color: #a1a9b0; }
+      body .container-1 .firstBox .buttMore {
+        display: flex;
+        justify-content: center;
+        width: 20rem;
+        height: 6rem;
+        margin-top: 2rem;
+        color: #fff;
+        background-color: #3dc9b3;
+        border-radius: 1rem;
+        border: none;
+        border-bottom: 2px solid #309383; }
+  body .container-2 {
+    background-color: #f3f5f8;
+    height: 40rem;
+    font-family: gothamMedium; }
+    body .container-2 .secondBox {
+      text-align: center; }
+      body .container-2 .secondBox .titleBox {
+        height: 7rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        text-align: center;
+        border-bottom: dotted 1px #dddddd; }
+        body .container-2 .secondBox .titleBox .title {
+          line-height: 8rem;
+          font-size: 2.2rem;
+          font-weight: bold; }
+      body .container-2 .secondBox .carret {
+        width: 8.5rem;
+        height: 2rem;
+        position: absolute;
+        margin-top: 10rem;
+        background-color: #f3f5f8; }
+      body .container-2 .secondBox .titleBox2 {
+        margin: auto;
+        padding: 0;
+        text-align: center;
+        color: #928c90;
+        font-size: 1.7rem; }
+        body .container-2 .secondBox .titleBox2 span {
+          color: #000; }
+  body .container-3 {
+    height: 70rem;
+    font-family: gothamMedium; }
+    body .container-3 .thirdBox {
+      text-align: center; }
+      body .container-3 .thirdBox .titleBox {
+        height: 7rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        text-align: center;
+        border-bottom: dotted 1px #dddddd; }
+        body .container-3 .thirdBox .titleBox .title {
+          line-height: 8rem;
+          font-size: 2.2rem;
+          font-weight: bold; }
+      body .container-3 .thirdBox .carret {
+        width: 8.5rem;
+        height: 2rem;
+        position: absolute;
+        margin-top: 10rem;
+        background-color: #fff; }
+      body .container-3 .thirdBox .column {
+        display: flex;
+        justify-content: center; }
+        body .container-3 .thirdBox .column .circle {
+          background-color: #3dc9b3;
+          width: 15rem;
+          height: 15rem;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

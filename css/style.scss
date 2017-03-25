@@ -1,3 +1,136 @@
+@font-face{
+	font-family: 'gothamBook';
+	src: '../fonts/gothamRoundedBook.otf' format("opentype");
+}
+@font-face{
+	font-family: 'gothamMedium';
+	src: '..fonts/gothamRoundedMedium.otf' format('opentype');
+}
 html{
 	font-size: 62.5%;
+	box-sizing: border-box;
 }
+body{
+	width: 100%;
+	.container-1{
+		background: url("../images/jumbotron.jpg") no-repeat;
+		background-position: center top;
+		height: 80rem;
+		box-sizing: border-box;
+		padding: 0;
+		margin: 0;
+		.firstBox{
+			margin: auto;
+			padding: 0;
+			font-family: gothamBook;
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+				.row{
+					height: 25rem;
+				}
+				.title{
+					display: flex;
+					margin: auto;
+					font-size: 4rem;
+					span{
+						color: #a1a9b0;
+					}
+				}
+					p{
+						margin-top: 2rem;
+						color: #a1a9b0;
+					}
+					.buttMore{
+						display: flex;
+						justify-content: center;
+						width: 20rem;
+						height: 6rem;
+						margin-top: 2rem;
+						color: #fff;
+						background-color: #3dc9b3;
+						border-radius: 1rem;
+						border: none;
+						border-bottom: 2px solid #309383;
+					}
+		}
+	}
+	.container-2{
+		background-color: #f3f5f8;
+		height: 40rem;
+		font-family: gothamMedium;
+		.secondBox{
+			text-align: center;
+			.titleBox{
+				height: 7rem;
+				margin-top: 4rem;
+				margin-bottom: 4rem;
+				text-align: center;
+				border-bottom: dotted 1px #dddddd;
+				.title{
+					line-height: 8rem;
+					font-size: 2.2rem;
+					font-weight: bold;
+				}
+			}
+			.carret{
+				width: 8.5rem;
+				height: 2rem;
+				position: absolute;
+				margin-top: 10rem;
+    			background-color: #f3f5f8;
+			} 	
+				.titleBox2{
+					margin: auto;
+					padding: 0;
+					text-align: center;
+					color: #928c90;
+					font-size: 1.7rem;
+					span{
+						color: #000;
+					}
+			}
+		}
+	}
+	.container-3{
+		height: 70rem;
+		font-family: gothamMedium;
+		.thirdBox{
+			text-align: center;
+			.titleBox{
+				height: 7rem;
+				margin-top: 4rem;
+				margin-bottom: 4rem;
+				text-align: center;
+				border-bottom: dotted 1px #dddddd;
+				.title{
+					line-height: 8rem;
+					font-size: 2.2rem;
+					font-weight: bold;
+				}
+			}
+			.carret{
+				width: 8.5rem;
+				height: 2rem;
+				position: absolute;
+				margin-top: 10rem;
+    			background-color: #fff;
+			}
+			.column{
+				display: flex;
+				justify-content: center;
+				.circle{
+					background-color: #3dc9b3;
+					width: 15rem;
+					height: 15rem;
+					border-radius: 50%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					color: #fff;
+				}
+			}
+		} 
+	}
+}
+
