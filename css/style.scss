@@ -181,4 +181,23 @@ body{
 			}
 		}
 	}
+	.container-5{
+		background: url('../images/counter.jpg') no-repeat;
+		height: 30rem;
+		text-align: center;
+		color: #fff;
+		.fifthContainer{
+			h1{
+				font-family: gothamBook;
+				margin-top: 7rem;
+			}
+			p{
+				font-family: gothamMedium;
+				margin-top: 2rem;
+				span{
+					font-family: gothamBook;
+				}
+			}
+		}
+	}
 }

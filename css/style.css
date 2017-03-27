@@ -149,5 +149,18 @@ body {
         margin-top: 3rem;
         color: #928c90;
         font-size: 1.4rem; }
+  body .container-5 {
+    background: url("../images/counter.jpg") no-repeat;
+    height: 30rem;
+    text-align: center;
+    color: #fff; }
+    body .container-5 .fifthContainer h1 {
+      font-family: gothamBook;
+      margin-top: 7rem; }
+    body .container-5 .fifthContainer p {
+      font-family: gothamMedium;
+      margin-top: 2rem; }
+      body .container-5 .fifthContainer p span {
+        font-family: gothamBook; }
 
 /*# sourceMappingURL=style.css.map */
