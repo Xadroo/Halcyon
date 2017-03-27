@@ -62,11 +62,11 @@ body{
 		.secondBox{
 			text-align: center;
 			.titleBox{
-				height: 7rem;
+				height: 5rem;
 				margin-top: 4rem;
 				margin-bottom: 4rem;
 				text-align: center;
-				border-bottom: dotted 1px #dddddd;
+				border-bottom: dotted 3px #dddddd;
 				.title{
 					line-height: 2.2rem;
 					font-size: 2.2rem;
@@ -77,7 +77,7 @@ body{
 				width: 8.5rem;
 				height: 2rem;
 				position: absolute;
-				margin-top: 10rem;
+				margin-top: 8rem;
     			background-color: #f3f5f8;
 			} 	
 				.titleBox2{
@@ -93,7 +93,7 @@ body{
 		}
 	}
 	.container-3{
-		height: 70rem;
+		height: 60rem;
 		font-family: gothamMedium;
 		.thirdBox{
 			text-align: center;
@@ -102,7 +102,7 @@ body{
 				margin-top: 4rem;
 				margin-bottom: 4rem;
 				text-align: center;
-				border-bottom: dotted 1px #dddddd;
+				border-bottom: dotted 3px #dddddd;
 				.title{
 					line-height: 8rem;
 					font-size: 2.2rem;
@@ -119,6 +119,8 @@ body{
 			.column{
 				display: flex;
 				justify-content: center;
+				flex-direction: column;
+				align-items: center;
 				.circle{
 					background-color: #3dc9b3;
 					width: 15rem;
@@ -129,8 +131,54 @@ body{
 					align-items: center;
 					color: #fff;
 				}
+				.columnTitle{
+					font-size: 1.8rem;
+    				margin-top: 4rem;
+    				font-weight: bold;
+				}
+				.bott{
+					width: 4rem;
+					margin-top: 1rem;
+					border-bottom: 3px solid #3dc9b3;
+				}
+				.columnText{
+					margin-top: 4rem;
+					color: #928c90;
+					font-size: 1.4rem;
+				}
 			}
 		} 
 	}
+	.container-4{
+		height: 70rem;
+		background: url("../images/iphone.jpg") no-repeat;
+		background-position: center top;
+		text-align: center;
+		.iphone{
+			background-color: #fff;
+			height: 70rem;
+			.iphoneTitle{
+				font-size: 1.8rem;
+				margin-top: 10rem;
+				font-weight: bold;
+				padding-bottom: 2rem;
+				border-bottom: dotted 3px #dddddd;
+			}
+			.carret{
+				width: 8.5rem;
+				height: 2rem;
+				position: absolute;
+				margin-top: -2rem;
+				background-color: #fff;
+			} 
+			.row{
+				height: 5rem;
+			}
+			.iphoneLane{
+				margin-top: 3rem;
+				color: #928c90;
+				font-size: 1.4rem;
+			}
+		}
+	}
 }
-
