@@ -1,20 +1,20 @@
 @font-face {
-  font-family: 'gothamBook';
+  font-family: 'GothamRounded';
   src: "../fonts/gothamRoundedBook.otf" format("opentype"); }
 @font-face {
-  font-family: 'gothamMedium';
+  font-family: 'gothamRoundedMedium';
   src: "..fonts/gothamRoundedMedium.otf" format("opentype"); }
 html,
 body {
   width: 100%;
   height: 100%;
-  font-family: gothamMedium; }
+  font-family: "gothamRoundedMedium"; }
 
 .gothamBook {
-  font-family: gothamBook; }
+  font-family: "GothamRounded"; }
 
 .gothamMedium {
-  font-family: gothamMedium; }
+  font-family: "gothamRoundedMedium"; }
 
 .text-vertical-center {
   display: table-cell;
@@ -147,7 +147,13 @@ hr.small {
   margin: 5px 5px 0 0; }
 
 /* Header */
+.HALCYONDAYS {
+  font-size: 40px;
+  font-family: "GothamRounded";
+  color: #353535; }
+
 .header {
+  font-family: gothamBook;
   display: table;
   position: relative;
   width: 100%;
@@ -157,6 +163,10 @@ hr.small {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; }
+  .header h1 {
+    font-weight: 100; }
+    .header h1 span {
+      color: #a1a9b0; }
 
 /* About */
 .about {
@@ -180,6 +190,10 @@ hr.small {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; }
+  .callout h1 {
+    font-weight: 100; }
+  .callout span {
+    font-weight: 600; }
 
 .iphone {
   min-height: 400px;
