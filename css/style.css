@@ -25,6 +25,10 @@ section {
   text-align: center;
   vertical-align: middle; }
 
+.row {
+  margin-right: 0px;
+  margin-left: 0px; }
+
 .text-vertical-center h1 {
   margin: 0;
   padding: 0;
