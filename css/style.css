@@ -7,8 +7,12 @@
 html,
 body {
   width: 100%;
+  min-width: 500px;
   height: 100%;
   font-family: "gothamRoundedMedium"; }
+
+section {
+  width: 100%; }
 
 .gothamBook {
   font-family: "GothamRounded"; }
